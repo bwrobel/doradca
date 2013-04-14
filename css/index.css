@@ -53,7 +53,7 @@ CUSTOM CLASSES
     width: 368px;
     height: 183px;
     margin: 5px;
-	background: url('../img/cc-mockup.png');
+    /*background: url('../img/cc-mockup.png');*/
     
     background-color: #ffffff;
     display:inline-block;

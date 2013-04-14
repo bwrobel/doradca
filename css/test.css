@@ -1,0 +1,181 @@
+/* ------------------------------
+ *HTML Redefine Tags
+ *------------------------------ */
+/* line 5, ../sass/test.sass */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 20px;
+  padding: 0;
+}
+
+/* line 11, ../sass/test.sass */
+input, form, textarea h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 15, ../sass/test.sass */
+h1 {
+  font-size: 18px;
+}
+
+/* line 18, ../sass/test.sass */
+h2 {
+  font-size: 14px;
+  color: #999999;
+}
+
+/* line 22, ../sass/test.sass */
+h3 {
+  font-size: 13px;
+  border-bottom: solid 1px #dedede;
+  padding: 4px 0;
+  margin-bottom: 10px;
+}
+
+/* line 29, ../sass/test.sass */
+a:link, a:visited {
+  color: #0033cc;
+}
+/* line 31, ../sass/test.sass */
+a:hover {
+  text-decoration: none;
+}
+
+/* ------------------------------
+ *PAGE STRUCTURE
+ *------------------------------ */
+/* #container has an absolute width (780 pixel) */
+/* line 40, ../sass/test.sass */
+body {
+  margin: 10px;
+}
+
+/* line 43, ../sass/test.sass */
+#container {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 48, ../sass/test.sass */
+#topbar {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  height: 60px;
+}
+
+/* line 54, ../sass/test.sass */
+#navbar {
+  width: 100%;
+  display: table-row;
+  height: 28px;
+}
+/* line 58, ../sass/test.sass */
+#navbar a {
+  heigth: 28px;
+  line-height: 28px;
+  padding: 0 8px;
+  display: inline;
+}
+
+/* line 64, ../sass/test.sass */
+#main {
+  width: auto;
+  display: table-row;
+  padding: 10px 0;
+}
+
+/* line 69, ../sass/test.sass */
+#column_filters {
+  width: 200px;
+  margin-right: 20px;
+  display: block;
+}
+
+/* line 74, ../sass/test.sass */
+#column_products {
+  width: 100%;
+  margin-right: 20px;
+  display: table-cell;
+  text-align: center;
+}
+
+/* line 80, ../sass/test.sass */
+#column_commercial {
+  width: 120px;
+  display: block;
+}
+
+/* line 84, ../sass/test.sass */
+div.spacer {
+  clear: both;
+  height: 10px;
+  display: block;
+}
+
+/* line 89, ../sass/test.sass */
+#footer {
+  width: auto;
+  height: 600px;
+  padding: 10px 0;
+  font-size: 11px;
+  color: #666666;
+  display: block;
+}
+
+/* ---------BLOCK COLORS FOR TEST PURPOSES-------- */
+/*#topbar{background-color: yellow}
+ *#navbar{background-color: red}
+ *#navbar a{background-color: lightcoral}
+ *#main{background-color: lightblue}
+ *#column_filters{background-color: #ffffff}
+ *#column_products{background-color: #003399}
+ *#column_commercial{background-color: lightcyan}
+ *div.spacer{background-color: lightsalmon}
+ *#footer{background-color: lightgreen} */
+/* ------------------------------- */
+/* ------------------------------
+ *CUSTOM CLASSES
+ *------------------------------ */
+/* Add here your custom classes ... */
+/* line 116, ../sass/test.sass */
+.product {
+  width: 368px;
+  height: 183px;
+  margin: 5px;
+  background-color: white;
+  display: inline-block;
+}
+
+/* line 124, ../sass/test.sass */
+#footer {
+  position: relative;
+}
+
+/* line 127, ../sass/test.sass */
+#filters {
+  width: 210px;
+  height: 300px;
+  border: solid 1px;
+  border-color: black;
+  background-color: white;
+  position: fixed;
+  top: 98px;
+  left: 10px;
+}
+
+/* line 137, ../sass/test.sass */
+.absolute-down {
+  position: absolute;
+  top: -312px;
+}
+
+/* line 141, ../sass/test.sass */
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 10px;
+}
