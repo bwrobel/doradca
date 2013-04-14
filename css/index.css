@@ -1,0 +1,98 @@
+/* ------------------------------
+HTML Redefine Tags
+------------------------------ */
+body{font-family:Arial, Helvetica, sans-serif; font-size:12px; margin:20px; padding:0;}
+
+input, form, textarea
+h1, h2, h3, h4, h5, h6{margin:0; padding:0;}
+h1{font-size:18px;}
+h2{font-size:14px; color:#999999;}
+h3{font-size:13px; border-bottom:solid 1px #DEDEDE; padding:4px 0; margin-bottom:10px;}
+
+a:link, a:visited{color:#0033CC;}
+a:hover{text-decoration:none;}
+
+/* ------------------------------
+PAGE STRUCTURE
+------------------------------ */
+
+/* #container has an absolute width (780 pixel) */
+body {margin: 10px}
+#container{width:100%; margin:0 auto;display: block}
+#topbar{width:100%; display: block; overflow: hidden; height:60px}
+#navbar{width:100%; display: table-row; height:28px}
+#navbar a{heigth:28px; line-height:28px; padding:0 8px; display:inline}
+
+#main{width:auto; display: table-row; padding:10px 0;}
+#column_filters{width:200px; margin-right:20px;display:block}
+#column_products{width:100%; margin-right:20px;display: table-cell;text-align:center}
+#column_commercial{width:120px;display:block; }
+div.spacer{clear:both; height:10px; display:block;}
+#footer{width:auto;height: 600px; padding:10px 0; font-size:11px; color:#666666;display:block;}
+
+/* ---------BLOCK COLORS FOR TEST PURPOSES-------- */
+/*#topbar{background-color: yellow}
+#navbar{background-color: red}
+#navbar a{background-color: lightcoral}
+#main{background-color: lightblue}
+#column_filters{background-color: #ffffff}
+#column_products{background-color: #003399}
+#column_commercial{background-color: lightcyan}
+div.spacer{background-color: lightsalmon}
+#footer{background-color: lightgreen}*/
+
+
+/* ------------------------------- */
+
+/* ------------------------------
+CUSTOM CLASSES
+------------------------------ */
+
+/* Add here your custom classes ... */
+.product {
+    width: 368px;
+    height: 183px;
+    margin: 5px;
+	background: url('../img/cc-mockup.png');
+    
+    background-color: #ffffff;
+    display:inline-block;
+
+}
+
+/*#filters{*/
+    /*position: fixed;*/
+    /*width: 210px;*/
+    /*height: 300px;*/
+    /*border: solid 1px;*/
+    /*border-color: #000000;*/
+    /*background-color: #ffffff;*/
+/*}*/
+
+#footer {
+    position: relative;
+}
+
+#filters{
+    width: 210px;
+    height: 300px;
+    border: solid 1px;
+    border-color: #000000;
+    background-color: #ffffff;
+
+    position: fixed;
+    top: 98px;
+    left: 10px;
+}
+
+.absolute-down{
+    position: absolute;
+    top: -312px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0px;
+    left: 10px;
+
+}
